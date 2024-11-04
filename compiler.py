@@ -2,7 +2,6 @@ code=str(input())
 code=list(code)
 array= [0] * 16
 pointer=0
-
 skiploop=0
 counter=0
 while counter<len(code):
@@ -41,9 +40,4 @@ while counter<len(code):
                     break
     else:
         print("Error: Unknown character , Line", counter+1)
-    print(" ",counter,array[1])
     counter+=1
-   
-   
-   
-#inputcommand(code[counter],code)
