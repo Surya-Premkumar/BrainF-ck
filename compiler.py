@@ -38,6 +38,4 @@ while counter<len(code):
                     if skiploop==0:
                         counter=counter2
                     break
-    else:
-        print("Error: Unknown character , Line", counter+1)
     counter+=1
